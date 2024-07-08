@@ -10,10 +10,18 @@ Laravel package to create autonumber for Eloquent model
 
 # Installation
 
+Add the following to the `repositories` key on `composer.json`:
+```
+    {
+        "type": "vcs",
+        "url":  "git@github.com:bagaskarawg/laravel-autonumber.git"
+    }
+```
+
 You can install the package via composer:
 
 ```
-composer require alfa6661/laravel-autonumber
+composer require alfa6661/laravel-autonumber:dev-master
 ```
 
 Register the ServiceProvider in `config/app.php`
