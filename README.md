@@ -10,12 +10,14 @@ Laravel package to create autonumber for Eloquent model
 
 # Installation
 
-Add the following to the `repositories` key on `composer.json`:
+Add the following to the `composer.json` file:
 ```
-    {
-        "type": "vcs",
-        "url":  "git@github.com:bagaskarawg/laravel-autonumber.git"
-    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:bagaskarawg/laravel-autonumber.git"
+        }
+    ],
 ```
 
 You can install the package via composer:
